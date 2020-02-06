@@ -15,15 +15,6 @@ export interface IAddLikeAndUpdateResponse {
     answers: IAnswerInfo[];
 }
 
-export interface IAnswersTable {
-    Id: string;
-    QuestionId: string;
-    Text: string;
-    UserId: string;
-    Date: Date;
-    IsAccepted: number;
-}
-
 export interface IGetQuestionAndAnswersResponse {
     currentQuestion: IQuestionInfo;
     answers: IAnswerInfo[];

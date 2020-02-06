@@ -1,4 +1,4 @@
-module.exports =  require('knex')({
+export const db =  require('knex')({
 	client: 'mssql',
 	connection: {
 		host: '127.0.0.1',

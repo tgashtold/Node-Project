@@ -19,7 +19,4 @@ export const handleError = (err, res) => {
 	});
 };
 
-module.exports = {
-	ErrorHandler,
-	handleError
-};
+

@@ -10,15 +10,6 @@ export interface IQuestion {
     isClosed: boolean;
 }
 
-export interface IQuestionsTable {
-    Id: string;
-    UserId: string;
-    Title: string;
-    Date: Date;
-    Description: string;
-    IsClosed: number;
-}
-
 export interface IQuestionInfo extends IQuestion {
     answersQty: number;
     latestAnswerDate: Date | null;
