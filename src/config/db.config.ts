@@ -1,9 +1,9 @@
-export const db =  require('knex')({
-	client: 'mssql',
-	connection: {
-		host: '127.0.0.1',
-		user: 'DBUser',
-		password: '12345USERforDB',
-		database: 'ProgAssistant'
-	}
+export const db: any = require('knex')({
+    client: 'mssql',
+    connection: {
+        host: '127.0.0.1',
+        user: 'DBUser',
+        password: '12345USERforDB',
+        database: 'ProgAssistant'
+    }
 });

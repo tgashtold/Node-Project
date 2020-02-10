@@ -1,3 +1,3 @@
-export const commonConfig ={
-  defaultPort: 5000,
+export const commonConfig: any = {
+    defaultPort: 5000,
 };
